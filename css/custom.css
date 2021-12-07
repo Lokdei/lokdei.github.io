@@ -1,0 +1,26 @@
+/* your styles go here */
+/* Example site test */
+
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}
+
+#footer {
+    padding: 0;
+    padding: 24px 0;
+    color: #999999;
+}
+
+.fa, .fas {
+    font-size: 24px;
+}

@@ -5,15 +5,14 @@
     <link>https://lokdei.github.io/</link>
     <description>Recent content on Gezond Geldbeheer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl</language>
-    <lastBuildDate>Thu, 02 Dec 2021 21:14:27 +0100</lastBuildDate><atom:link href="https://lokdei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>nl</language><atom:link href="https://lokdei.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lorem Post</title>
-      <link>https://lokdei.github.io/blog/2021/12/02/my-first-post/</link>
-      <pubDate>Thu, 02 Dec 2021 21:14:27 +0100</pubDate>
+      <title>Strategie</title>
+      <link>https://lokdei.github.io/strategie/</link>
+      <pubDate>Fri, 10 Dec 2021 13:01:19 +0100</pubDate>
       
-      <guid>https://lokdei.github.io/blog/2021/12/02/my-first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet sollicitudin neque. Integer fringilla feugiat finibus. Phasellus fringilla urna sed augue vestibulum eleifend. Proin tempor sagittis ullamcorper. Mauris massa nulla, elementum at nunc vel, ultrices ultrices turpis. Sed sagittis nisl vitae ultricies vehicula.</description>
+      <guid>https://lokdei.github.io/strategie/</guid>
+      <description>Strategie Als je begint met investeren doe je dat best met een strategie. Deze zal je helpen bepalen welke aandelen je zal kopen en wanneer je dat doet. Door de jaren heen zijn er meerdere strategieën ontwikkeld om het meest waar voor je geld te krijgen.</description>
     </item>
     
     <item>
@@ -26,12 +25,12 @@
     </item>
     
     <item>
-      <title>Strategie</title>
-      <link>https://lokdei.github.io/strategie/</link>
+      <title>Rule 1</title>
+      <link>https://lokdei.github.io/rule1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lokdei.github.io/strategie/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</description>
+      <guid>https://lokdei.github.io/rule1/</guid>
+      <description>Rule 1 De Rule #1 strategie is geschreven door Phil Town. Een Amerikaanse investeerder wiens interesse in meditatie en spiritualiteit hem ertoe leidde te verpersoonlijken wat hij van zijn mentor had geleerd. De beleggingsfilosofie die hij aanleert draait om vier belangrijke principes die hij de Vier M&amp;rsquo;s noemt:</description>
     </item>
     
   </channel>

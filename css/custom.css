@@ -25,3 +25,7 @@
 .fa, .fas {
     font-size: 24px;
 }
+
+#listed-content:not(:empty) {
+    margin-bottom: 40px;
+}

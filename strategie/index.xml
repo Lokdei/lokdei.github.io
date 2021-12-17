@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategie on Gezond Geldbeheer</title>
+    <link>https://lokdei.github.io/strategie/</link>
+    <description>Recent content in Strategie on Gezond Geldbeheer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl</language>
+    <lastBuildDate>Fri, 10 Dec 2021 13:01:19 +0100</lastBuildDate><atom:link href="https://lokdei.github.io/strategie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pensioensparen</title>
+      <link>https://lokdei.github.io/strategie/pensioensparen/</link>
+      <pubDate>Fri, 10 Dec 2021 13:01:36 +0100</pubDate>
+      
+      <guid>https://lokdei.github.io/strategie/pensioensparen/</guid>
+      <description>Foto van Xolo Piks op Vecteezy.com  Hallo, wereld.</description>
+    </item>
+    
+    <item>
+      <title>Index ETF</title>
+      <link>https://lokdei.github.io/strategie/index-etf/</link>
+      <pubDate>Fri, 10 Dec 2021 13:01:19 +0100</pubDate>
+      
+      <guid>https://lokdei.github.io/strategie/index-etf/</guid>
+      <description>Foto van Xolo Piks op Vecteezy.com  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,18 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lokdei.github.io/blog/</loc>
+    <lastmod>2021-12-16T12:21:02+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/</loc>
+    <lastmod>2021-12-16T12:21:02+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/categories/</loc>
+    <lastmod>2021-12-10T13:01:36+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/categories/pensioensparen/</loc>
+    <lastmod>2021-12-10T13:01:36+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/strategie/pensioensparen/</loc>
+    <lastmod>2021-12-10T13:01:36+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/categories/etf/</loc>
+    <lastmod>2021-12-10T13:01:19+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/categories/index/</loc>
+    <lastmod>2021-12-10T13:01:19+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/strategie/index-etf/</loc>
+    <lastmod>2021-12-10T13:01:19+01:00</lastmod>
+  </url><url>
     <loc>https://lokdei.github.io/strategie/</loc>
     <lastmod>2021-12-10T13:01:19+01:00</lastmod>
   </url><url>
-    <loc>https://lokdei.github.io/authors/</loc>
+    <loc>https://lokdei.github.io/rule1/meaning/</loc>
+    <lastmod>2021-12-10T13:00:32+01:00</lastmod>
   </url><url>
-    <loc>https://lokdei.github.io/categories/</loc>
+    <loc>https://lokdei.github.io/categories/rule-1/</loc>
+    <lastmod>2021-12-10T13:00:32+01:00</lastmod>
   </url><url>
-    <loc>https://lokdei.github.io/contact/</loc>
-  </url><url>
-    <loc>https://lokdei.github.io/</loc>
+    <loc>https://lokdei.github.io/rule1/management/</loc>
+    <lastmod>2021-12-10T13:00:06+01:00</lastmod>
   </url><url>
     <loc>https://lokdei.github.io/rule1/</loc>
+    <lastmod>2021-12-10T13:00:06+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/rule1/margin-of-safety/</loc>
+    <lastmod>2021-12-10T12:59:55+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/rule1/moat/</loc>
+    <lastmod>2021-12-10T12:59:46+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/categories/beginnen-met-investeren/</loc>
+    <lastmod>2021-12-08T17:21:07+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/blog/de-actieve-belegger/</loc>
+    <lastmod>2021-12-08T17:21:07+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/blog/financiele-instrumenten/</loc>
+    <lastmod>2021-12-08T17:20:52+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/blog/brokers/</loc>
+    <lastmod>2021-12-08T17:20:29+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/blog/hoeveel-tijd-heb-ik-nodig/</loc>
+    <lastmod>2021-12-08T17:20:01+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/blog/iedereen-kan-beginnen/</loc>
+    <lastmod>2021-12-08T17:19:18+01:00</lastmod>
+  </url><url>
+    <loc>https://lokdei.github.io/authors/</loc>
+  </url><url>
+    <loc>https://lokdei.github.io/contact/</loc>
   </url><url>
     <loc>https://lokdei.github.io/tags/</loc>
   </url>

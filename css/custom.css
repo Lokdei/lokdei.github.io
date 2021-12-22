@@ -1,31 +1,42 @@
 /* your styles go here */
 /* Example site test */
 
-.box-image-text .image {
-    min-height: 190px;
-    max-height: 190px;
+.article-figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.box-image-text .image img {
-    max-height: 190px;
-    margin: auto;
+.article-picture {
+  text-align: center;
 }
 
-.box-simple {
-    min-height: 230px;
+.article-image {
+  max-width: 400px;
+  width: 100%;
+}
+
+.figcaption {
+  padding: 5px 30px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #999;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #fff;
 }
 
 #footer {
-    padding: 0;
-    padding: 24px 0;
-    color: #999999;
-    margin-top: 24px;
+  padding: 0;
+  padding: 24px 0;
+  color: #999999;
+  margin-top: 24px;
 }
 
-.fa, .fas {
-    font-size: 24px;
+.fa,
+.fas {
+  font-size: 24px;
 }
 
 #listed-content:not(:empty) {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }

@@ -1,5 +1,10 @@
 /* Themed colors */
 :root {
+  --font-tiny: 15px;
+  --font-small: 16px;
+  --font-normal: 18px;
+  --font-large: 21px;
+
   --primary-accent: #38a7bb;
   --navbar-border-top: #20616d;
   --button-border: #2a7d8c;
@@ -127,7 +132,7 @@ div.section {
   vertical-align: middle;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   line-height: 30px;
   border-radius: 15px;
 }
@@ -186,7 +191,7 @@ ul.list-style-none {
   text-align: center;
 }
 .pages-listing .item h3 {
-  font-size: 18px;
+  font-size: var(--font-normal);
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 0.08em;
@@ -199,7 +204,7 @@ ul.list-style-none {
 }
 .pages-listing .item .text p {
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   margin-bottom: 20px;
 }
 .banner {
@@ -229,9 +234,11 @@ ul.list-style-none {
   margin-bottom: 20px;
 }
 @media (min-width: 1300px) {
+  /*
   body.boxed {
     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/subtle_zebra_3d.png);
   }
+  */
   body.boxed #all {
     position: relative;
     background: #fff;
@@ -249,7 +256,7 @@ ul.list-style-none {
 }
 #top p {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 #top .social {
   float: right;
@@ -262,7 +269,7 @@ ul.list-style-none {
   height: 24px;
   border-radius: 12px;
   line-height: 24px;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   text-align: center;
 }
 #top .social a:hover {
@@ -290,7 +297,7 @@ ul.list-style-none {
   float: right;
 }
 #top .login a {
-  font-size: 12px;
+  font-size: var(--font-tiny);
   color: #eeeeee;
   margin-right: 15px;
   text-decoration: none;
@@ -368,7 +375,7 @@ ul.list-style-none {
 .navbar ul.dropdown-menu li a {
   position: relative;
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -390,7 +397,7 @@ ul.list-style-none {
   }
 }
 .navbar .yamm-content h3 {
-  font-size: 18px;
+  font-size: var(--font-normal);
   text-transform: uppercase;
   padding-bottom: 10px;
   margin-top: 5px;
@@ -399,7 +406,7 @@ ul.list-style-none {
 }
 @media (max-width: 767px) {
   .navbar .yamm-content h3 {
-    font-size: 14px;
+    font-size: var(--font-normal);;
   }
 }
 .navbar .yamm-content h5 {
@@ -421,7 +428,7 @@ ul.list-style-none {
 .navbar .yamm-content ul li a {
   position: relative;
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -518,7 +525,7 @@ ul.list-style-none {
 #login-modal p {
   font-weight: 300;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: var(--font-small);
 }
 /* buttons  */
 .btn {
@@ -527,28 +534,28 @@ ul.list-style-none {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
-  font-size: 13px;
+  font-size: var(--font-small);
   line-height: 1.42857143;
   border-radius: 0;
 }
 .input-group .btn {
-  font-size: 14px;
+  font-size: var(--font-normal);;
 }
 .btn-lg {
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: var(--font-normal);;
   line-height: 1.33;
   border-radius: 0;
 }
 .btn-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   line-height: 1.5;
   border-radius: 0;
 }
 .btn-xs {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   line-height: 1.5;
   border-radius: 0;
 }
@@ -774,7 +781,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media (max-width: 767px) {
   #intro .item h3 {
-    font-size: 15px;
+    font-size: var(--font-small);
     margin-bottom: 20px;
   }
 }
@@ -783,7 +790,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media (max-width: 991px) {
   #intro .item .btn {
-    font-size: 14px;
+    font-size: var(--font-normal);;
   }
 }
 @media (max-width: 991px) {
@@ -833,7 +840,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .jumbotron p {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: var(--font-large);
   font-weight: 400;
 }
 .jumbotron p.text-uppercase {
@@ -934,7 +941,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .panel.sidebar-menu .panel-body label {
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .panel.sidebar-menu .panel-body label:hover {
   color: #555555;
@@ -963,7 +970,7 @@ fieldset[disabled] .btn-template-primary.active {
   display: block;
   padding: 10px 15px;
   padding-left: 30px;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   color: #999999;
 }
 .panel.sidebar-menu ul.nav ul li a:hover,
@@ -988,7 +995,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   text-decoration: none;
 }
 .panel.sidebar-menu ul.tag-cloud li a:hover {
@@ -1052,7 +1059,7 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu ul.popular li p.date,
 .panel.sidebar-menu ul.recent li p.date {
   float: right;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   color: #999999;
 }
 .panel.sidebar-menu ul.popular li:last-child,
@@ -1060,7 +1067,7 @@ fieldset[disabled] .btn-template-primary.active {
   border-bottom: none;
 }
 .panel.sidebar-menu .text-widget {
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .panel.sidebar-menu.with-icons ul.nav li a:after {
   font-family: 'FontAwesome';
@@ -1146,7 +1153,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 26px;
   line-height: 25px;
   margin: 0 5px 0 0;
-  font-size: 18px;
+  font-size: var(--font-normal);
   color: var(--primary-accent);
   padding: 0;
   background: #fff;
@@ -1223,7 +1230,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel ul,
 .home-carousel p {
-  font-size: 18px;
+  font-size: var(--font-normal);
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
@@ -1232,7 +1239,7 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 991px) {
   .home-carousel ul,
   .home-carousel p {
-    font-size: 14px;
+    font-size: var(--font-normal);;
   }
 }
 .home-carousel ul li {
@@ -1324,14 +1331,14 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: right;
 }
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 14px;
+  font-size: var(--font-normal);;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
   color: #999999;
   margin: 0;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
@@ -1344,7 +1351,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 40px;
 }
 .team-member h3 {
-  font-size: 18px;
+  font-size: var(--font-normal);
   text-transform: uppercase;
   margin-bottom: 5px;
   letter-spacing: 0.08em;
@@ -1354,7 +1361,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .team-member p.role {
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -1369,7 +1376,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 26px;
   border-radius: 13px;
   line-height: 26px;
-  font-size: 15px;
+  font-size: var(--font-small);
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1397,7 +1404,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .team-member .text p {
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .team-member .social,
 .team-member-detail .social {
@@ -1412,7 +1419,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 26px;
   border-radius: 13px;
   line-height: 26px;
-  font-size: 15px;
+  font-size: var(--font-small);
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1457,7 +1464,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-simple h3 {
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--font-large);
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
@@ -1545,7 +1552,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: var(--font-normal);
   letter-spacing: 0.08em;
 }
 .box-image .name h3 a {
@@ -1623,7 +1630,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text .top .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: var(--font-normal);
   letter-spacing: 0.08em;
 }
 .box-image-text .top .name h3 a {
@@ -1834,7 +1841,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   margin-bottom: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: var(--font-normal);;
   letter-spacing: 0.08em;
 }
 .portfolio-project .project-more p {
@@ -1888,7 +1895,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: var(--font-small);
 }
 .showcase .item h4 span {
   font-weight: bold;
@@ -1954,7 +1961,7 @@ fieldset[disabled] .btn-template-primary.active {
   border-bottom: 0;
 }
 .packages .package ul li i {
-  font-size: 13px;
+  font-size: var(--font-small);
   margin-right: 5px;
 }
 .packages .best-value .package {
@@ -1973,7 +1980,7 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .packages .best-value .package .package-header .meta-text {
-  font-size: 13px;
+  font-size: var(--font-small);
   line-height: 15px;
 }
 #map {
@@ -2081,7 +2088,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #999999;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   letter-spacing: 0.08em;
 }
 #blog-listing-medium .post .author-category a {
@@ -2089,7 +2096,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-listing-medium .post .date-comments {
   float: right;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 #blog-listing-medium .post .date-comments a {
   color: #999999;
@@ -2159,7 +2166,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 300;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .box-image-text.blog .author-category a {
   font-weight: 500;
@@ -2204,7 +2211,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #blog-post .comment .posted {
   color: #999999;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 #blog-post .comment .reply {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -2274,7 +2281,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 10px;
 }
 .product .text h3 {
-  font-size: 14px;
+  font-size: var(--font-normal);;
   font-weight: 700;
   height: 39.6px;
   text-transform: uppercase;
@@ -2287,7 +2294,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-decoration: none;
 }
 .product .text p.price {
-  font-size: 18px;
+  font-size: var(--font-normal);
 }
 .product .text p.price del {
   color: #999999;
@@ -2329,7 +2336,7 @@ fieldset[disabled] .btn-template-primary.active {
   transform: scale(1.1, 1.1);
 }
 .goToDescription {
-  font-size: 12px;
+  font-size: var(--font-tiny);
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2400,7 +2407,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 26px;
   border-radius: 13px;
   line-height: 26px;
-  font-size: 15px;
+  font-size: var(--font-small);
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -2450,7 +2457,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #order-summary table tr.total td,
 #order-summary table tr.total th {
-  font-size: 18px;
+  font-size: var(--font-normal);
   color: #555555;
   font-weight: 700;
 }
@@ -2473,7 +2480,7 @@ fieldset[disabled] .btn-template-primary.active {
 #checkout .table tfoot,
 #basket .table tfoot,
 #customer-order .table tfoot {
-  font-size: 18px;
+  font-size: var(--font-normal);
 }
 .shipping-method h4,
 .payment-method h4 {
@@ -2485,7 +2492,7 @@ fieldset[disabled] .btn-template-primary.active {
   vertical-align: baseline;
 }
 #customer-order .table tfoot th {
-  font-size: 18px;
+  font-size: var(--font-normal);
   font-weight: 300;
 }
 #customer-order .addresses {
@@ -2493,7 +2500,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 30px;
 }
 #customer-order .addresses p {
-  font-size: 18px;
+  font-size: var(--font-normal);
   font-weight: 300;
 }
 #customer-account {
@@ -2533,7 +2540,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #eeeeee;
 }
 #footer h4 {
-  font-size: 14px;
+  font-size: var(--font-normal);;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2594,7 +2601,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 #footer .blog-entries .item .name h5 a {
   color: #eeeeee;
@@ -2619,7 +2626,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #333;
   color: #ccc;
   padding: 50px 0;
-  font-size: 12px;
+  font-size: var(--font-tiny);
   line-height: 28px;
 }
 #copyright p {
@@ -2928,7 +2935,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-brand {
   float: left;
   padding: 10px 15px;
-  font-size: 18px;
+  font-size: var(--font-normal);
   line-height: 20px;
   height: 62px;
 }
@@ -3170,7 +3177,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: var(--font-normal);
   line-height: 1.42857143;
   color: #555555;
 }
@@ -3221,7 +3228,7 @@ hr {
 /* dropdowns */
 .dropdown-menu {
   z-index: 1000;
-  font-size: 14px;
+  font-size: var(--font-normal);;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -3399,18 +3406,18 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: var(--font-normal);
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: var(--font-large);
   }
 }
 .text-small {
-  font-size: 12px;
+  font-size: var(--font-tiny);
 }
 .text-large {
-  font-size: 18px;
+  font-size: var(--font-normal);
 }
 .text-italic {
   font-style: italic;
@@ -3435,14 +3442,14 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 14px;
+  font-size: var(--font-normal);
   border-left: 5px solid var(--primary-accent);
 }
 blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-size: 80%;
+  font-size: var(--font-small);
   line-height: 1.42857143;
   color: #999999;
 }

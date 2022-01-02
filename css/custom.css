@@ -1,9 +1,47 @@
-/* your styles go here */
-/* Example site test */
+@font-face {
+  font-family: "charter";
+  src: url("font/charter/webfonts/charter_regular-webfont.woff") format("woff");
+}
+
+article {
+  box-sizing: border-box;
+  color: rgb(41, 41, 41);
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: var(--font-normal);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.004em;
+  overflow-wrap: break-word;
+  text-rendering: optimizeSpeed;
+  word-break: break-word;
+  margin-bottom: 48px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 991px) {
+  article {
+    font-size: var(--font-large);
+  }
+}
+
+article p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+article blockquote p {
+  margin: 0;
+  background-color: #f8fffe;
+}
 
 .article-figure {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 24px;
   text-align: center;
 }
 
@@ -20,9 +58,14 @@
   padding: 5px 30px;
   border-bottom: 1px solid #e5e5e5;
   color: #999;
-  font-size: 14px;
+  font-size: var(--font-small);
   line-height: 18px;
   background-color: #fff;
+}
+
+#heading-breadcrumbs {
+  background: url('../img/quote-background-dark.png') center center repeat;
+  margin-bottom: 10px;
 }
 
 #footer {
@@ -32,11 +75,19 @@
   margin-top: 24px;
 }
 
+#footer p {
+  font-size: var(--font-tiny);
+}
+
 .fa,
 .fas {
   font-size: 24px;
 }
 
 #listed-content:not(:empty) {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
+}
+
+#metadata-author-date {
+  font-size: var(--font-tiny);
 }

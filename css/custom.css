@@ -64,8 +64,17 @@ article blockquote p {
 }
 
 #heading-breadcrumbs {
-  background: url('../img/quote-background-dark.png') center center repeat;
+  background: url("../img/quote-background-dark.png") center center repeat;
   margin-bottom: 10px;
+}
+
+/* 
+Light looks better on phones & tablets
+*/
+@media (max-width: 990px) {
+  #heading-breadcrumbs {
+    background: url("../img/quote-background-light.png") center center repeat;
+  }
 }
 
 #footer {
@@ -90,4 +99,51 @@ article blockquote p {
 
 #metadata-author-date {
   font-size: var(--font-tiny);
+}
+
+.collection-navigation-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 850px) {
+  .collection-navigation-actions {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .collectie {
+    text-align: center;
+  }
+
+  .volgende {
+    text-align: right;
+  }
+}
+
+.collection-navigation {
+  padding-top: 1rem;
+}
+
+.collection-navigation-title {
+  display: inline-block;
+  border-bottom: solid 5px var(--primary-accent);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+#listed-posts .img-responsive {
+  max-height: 345px;
+  min-width: 100%;
+  object-fit: contain;
+  margin-bottom: 8px;
 }

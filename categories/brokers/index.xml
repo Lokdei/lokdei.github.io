@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brokers on Gezond Geldbeheer</title>
+    <link>https://lokdei.github.io/categories/brokers/</link>
+    <description>Recent content in Brokers on Gezond Geldbeheer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl</language>
+    <lastBuildDate>Wed, 08 Dec 2021 17:20:29 +0100</lastBuildDate><atom:link href="https://lokdei.github.io/categories/brokers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brokers</title>
+      <link>https://lokdei.github.io/blog/brokers/</link>
+      <pubDate>Wed, 08 Dec 2021 17:20:29 +0100</pubDate>
+      
+      <guid>https://lokdei.github.io/blog/brokers/</guid>
+      <description>Als we aandelen willen kopen of verkopen gaan we een makelaar zoeken die ons verbindt met de markt. Telkens onze makelaar een successvolle aankoop- of verkooptransactie tot stand brengt neemt hij een kleine commissie. Verder gaan de meeste Belgische / Nederlandse brokers ook nog de TOB beurstaks voor jou afhandelen.</description>
+    </item>
+    
+  </channel>
+</rss>

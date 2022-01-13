@@ -2150,11 +2150,7 @@ fieldset[disabled] .btn-template-primary.active {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-@media (max-width: 767px) {
-  #blog-listing-medium .post .image img.img-responsive {
-    min-width: 100%;
-  }
-}
+
 #blog-listing-medium .post .video {
   margin-bottom: 10px;
 }

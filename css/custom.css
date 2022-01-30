@@ -111,20 +111,6 @@ Light looks better on phones & tablets
   padding-left: 10px;
 }
 
-@media only screen and (min-width: 850px) {
-  .collection-navigation-actions {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .collectie {
-    text-align: center;
-  }
-
-  .volgende {
-    text-align: right;
-  }
-}
-
 .collection-navigation {
   padding-top: 1rem;
 }

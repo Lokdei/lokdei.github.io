@@ -1,6 +1,14 @@
 @font-face {
   font-family: "charter";
-  src: url("font/charter/webfonts/charter_regular-webfont.woff") format("woff");
+  src: url("/font/charter/webfonts/charter_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "insula";
+  src: url("/font/insula/insula.woff2") format("woff2"),
+       url("/font/insula/insula.woff") format("woff"),
+       url("/font/insula/insula.otf") format("otf"),
+       url("/font/insula/insula.ttf") format("ttf");
 }
 
 article {
@@ -33,9 +41,8 @@ article p {
   margin-inline-end: 0px;
 }
 
-article blockquote p {
-  margin: 0;
-  background-color: #f8fffe;
+article blockquote {
+  padding: 0 0 0 10px;
 }
 
 .article-figure {
@@ -132,4 +139,32 @@ Light looks better on phones & tablets
   min-width: 100%;
   object-fit: contain;
   margin-bottom: 8px;
+}
+
+.inline-figure {
+  display: inline-block;
+}
+
+.inline-figure figcaption {
+  display: inline-block;
+  font-size: var(--font-small);
+  line-height: 18px;
+}
+
+.inline-figure figcaption a {
+  color: #999;
+  font-size: var(--font-small);
+}
+
+@media (min-width: 768px) {
+  .inline-figure figcaption {
+    padding-left: 1em;
+  }
+}
+
+.font-insula {
+  font-family: insula, "Times New Roman", Times, serif;
+  font-size: var(--font-small);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
